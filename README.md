@@ -30,6 +30,8 @@ This repository contains the LinkML data model representation of the Japanese In
 The IRUD ... 
 <!-- TODO -->
 
+You can find more information on the IRUD here: https://www.amed.go.jp/en/program/IRUD/. 
+
 ## Features
 
 * **LinkML Data Model:** Defines the structure of the IRUD Tracker data ready for Phenopacket export.

@@ -5,15 +5,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "template_for_python_projects"
 authors = [
-    {name = "Filip Rehburg", email="filip.rehburg@charite.de"},
+    {name = "", email=""},
+    {name = "", email=""},
+    {name = "", email=""},
      ]
 description = "TODO"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = [
-    "Test",
-    "TODO",
-    "ETC",
+    "",
 ]
 license = { file = "LICENSE" }
 classifiers = [
@@ -36,10 +36,7 @@ test = ["pytest>=7.0.0,<8.0.0", "pytest-cov"]
 docs = ["sphinx>=7.0.0", "sphinx-rtd-theme>=1.3.0", "sphinx-copybutton>=0.5.0"]
 
 [project.urls]
-homepage = "https://github.com/frehburg/template_for_python_projects"
-repository = "https://github.com/frehburg/template_for_python_projects.git"
-documentation = "https://frehburg.github.io/template_for_python_projects/stable"
-bugtracker = "https://github.com/frehburg/template_for_python_projects/issues"
+homepage = "https://www.amed.go.jp/en/program/IRUD/"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -47,7 +44,5 @@ package-dir = { "" = "src" }
 [tool.setuptools.dynamic]
 version = { attr = "template_for_python_projects.__version__" }
 
-# The following would provide a command line executable called `sample`
-# which executes the function `main` from this package when invoked.
 [project.scripts]  # Optional
 sample = "sample:main"
