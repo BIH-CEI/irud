@@ -1,0 +1,65 @@
+id: https://github.com/BIH-CEI/irud
+name: irud
+prefixes: 
+  linkml: https://w3id.org/linkml/
+  omim:    https://omim.org/entry/
+  hgnc:    http://identifiers.org/hgnc/
+  loinc:   http://purl.bioontology.org/ontology/LNC/
+  hpo:     http://purl.obolibrary.org/obo/HP_
+
+imports: 
+  linkml:types
+default_prefix: irud
+default_range: string
+
+classes: 
+  GeneticVariant:
+    description: >
+      A single genetic variant associated with a disease in a patient including 
+      its Gene, HGVS, mutation type, zygosity.
+    slots: 
+      - gene_code
+      - gene_label
+      - hgvs
+      - mutation_type_label
+      - mutation_type_code
+      - zygosity_label
+      - zygosity_code
+
+slots:
+  patient_id:
+    description: Unique identifier for the patient (e.g., “test_1”)
+    identifier: true
+
+  disease_code:
+    description: MONDO identifier of the disease (e.g., "MONDO:618406”)
+  disease_label:
+    description: Human-readable label for the disease (e.g., “Cystic fibrosis”)
+
+  gene_code:
+    description: One or more HGNC gene identifier "|"-separated (e.g., “HGNC:6932”)
+  gene_label:
+    description: Human-readable label for the gene (e.g., “CFTR”)
+  hgvs:
+    description: HGVS notation for the variant (e.g., “NM_005912.3:c.751A>C”)
+  zygosity_code:
+    description: GENO code for the Zygosity (e.g., GENO:0000014)
+  zygosity_label:
+    description: Human-readable label for the Zygosity (e.g., “Heterozygous”)
+  inheritance_label:
+    description: Human-readable label for the inheritance pattern (e.g., “Autosomal recessive”)
+  inheritance_code:
+    description: GENO code for the inheritance pattern (e.g., GENO:0000001)
+
+  hpo:
+    description: |
+      One or more HPO terms ("|"-separated in CSV).
+      Each entry should be an HPO CURIE (e.g., “HP:0001513|HP:0002591”).
+    multivalued: true
+    range: list
+  hpo_label:
+    description: |
+      Human-readable labels for the HPO terms.
+      Each entry should be a human-readable label (e.g., “Cystic fibrosis|Pancreatic insufficiency”).
+    multivalued: true
+    range: list
