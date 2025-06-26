@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "template_for_python_projects"
 authors = [
-    {name = "", email=""},
-    {name = "", email=""},
+    {name = "Sadahiro Kumagai", email="sadahiro.kumagai@keio.jp"},
+    {name = "Adam Graefe", email="adam.graefe@charite.de"},
     {name = "", email=""},
      ]
-description = "TODO"
+description = "This repository provides the LinkML data model for the Japanese Initiative on Rare and Undiagnosed Diseases (IRUD), along with preprocessing scripts from the IRUD Tracker to enable export to Phenopackets using RareLink."
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = [

@@ -1,6 +1,6 @@
 # Data Model of the Initiative on Rare and Undiagnosed Diseases (IRUD) for Phenopackets
 
-This repository contains the LinkML data model representation of the Japanese Initiative on Rare and Undiagnosed Diseases (IRUD) including its preprocessing sripcts from IRUD Tracker for export to Phenopackets with RareLink.
+This repository provides the LinkML data model for the Japanese Initiative on Rare and Undiagnosed Diseases (IRUD), along with preprocessing scripts from the IRUD Tracker to enable export to Phenopackets using RareLink.
 
 [![Python CI](https://github.com/BIH-CEI/irud/actions/workflows/python_ci.yml/badge.svg)](https://github.com/BIH-CEI/irud/actions/workflows/python_ci.yml)
 [![Python 3.10-3.12](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/downloads/)
