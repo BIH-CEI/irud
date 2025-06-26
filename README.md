@@ -71,5 +71,4 @@ This repository and the LinkML data model of the IRUD are licensed under an [ope
 
 ## Acknowledgements
 
-Prof. Kenjiro Kosaki
 IRUD Keio University
