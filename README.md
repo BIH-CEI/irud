@@ -1,4 +1,4 @@
-# Data Model of the Initiative on Rare and Undiagnosed Diseases (IRUD) for Phenopackets
+# Data Model of Initiative on Rare and Undiagnosed Diseases (IRUD) at Keio University for Phenopackets
 
 This repository provides the LinkML data model for the Japanese Initiative on Rare and Undiagnosed Diseases (IRUD), along with preprocessing scripts from the IRUD Tracker to enable export to Phenopackets using RareLink.
 
@@ -27,7 +27,7 @@ This repository provides the LinkML data model for the Japanese Initiative on Ra
 
 ## Project Description
 
-The Japanese Initiative on Rare and Undiagnosed Diseases (IRUD) already includes many diagnosed cases in semistructured formats. This project aims to process the existing data to Phenopackets using RareLink and to develop an architecture to sustainably export Phenopackets from IRUD Tracker and potentially IRUD Exhange.
+The Japanese Initiative on Rare and Undiagnosed Diseases (IRUD) data at the Keio University already includes many diagnosed cases in semistructured formats. This project aims to process the existing data to Phenopackets using RareLink and to develop an architecture to sustainably export Phenopackets from IRUD Tracker and potentially IRUD Exhange.
 
 You can find more information on the IRUD here: https://www.amed.go.jp/en/program/IRUD/ or https://www.nature.com/articles/s10038-022-01025-0
 
