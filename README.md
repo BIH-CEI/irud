@@ -27,10 +27,11 @@ This repository provides the LinkML data model for the Japanese Initiative on Ra
 
 ## Project Description
 
-The IRUD ... 
-<!-- TODO -->
+The Japanese Initiative on Rare and Undiagnosed Diseases (IRUD) already includes many diagnosed cases in semistructured formats. This project aims to process the existing data to Phenopackets using RareLink and to develop an architecture to sustainably export Phenopackets from IRUD Tracker and potentially IRUD Exhange.
 
-You can find more information on the IRUD here: https://www.amed.go.jp/en/program/IRUD/. 
+You can find more information on the IRUD here: https://www.amed.go.jp/en/program/IRUD/ or https://www.nature.com/articles/s10038-022-01025-0
+
+![IRUD Overview](<src/irud/res/IRUD overview - Page 1.png>)
 
 ## Features
 
@@ -66,8 +67,8 @@ You can find more information on the IRUD here: https://www.amed.go.jp/en/progra
 
 ## License
 
-Specify the license under which your project is distributed.
+This repository and the LinkML data model of the IRUD are licensed under an [open-source Apache 2.0 license](https://github.com/BIH-CEI/irud/develop/LICENSE)
 
 ## Acknowledgements
 
-tba.
+IRUD Keio University
